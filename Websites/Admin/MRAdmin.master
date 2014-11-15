@@ -1,0 +1,113 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MRAdmin.master.cs" Inherits="SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+	<title>	</title>
+	<link href="Styles/Site.css" rel="stylesheet" type="text/css" />
+	<asp:ContentPlaceHolder ID="HeadContent" runat="server">
+	</asp:ContentPlaceHolder>
+</head>
+<body>
+	<form runat="server">
+	<div class="page">
+		<div class="header">
+			<div class="title">
+				<h1>
+					<asp:Literal ID="literalOrg" runat="server" Text="<%$ AppSettings:Org %>"></asp:Literal>
+					&nbsp;Database Administration and Maintenance
+				</h1>
+			</div>
+ <!--           <div class="loginDisplay">
+				<asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
+					<AnonymousTemplate>
+						[ <a href="~/Account/Login.aspx" ID="HeadLoginStatus" runat="server">Log In</a> ]
+					</AnonymousTemplate>
+					<LoggedInTemplate>
+						Welcome <span class="bold"><asp:LoginName ID="HeadLoginName" runat="server" /></span>!
+						[ <asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutAction="Redirect" LogoutText="Log Out" LogoutPageUrl="~/"/> ]
+					</LoggedInTemplate>
+				</asp:LoginView>
+			</div>
+			-->
+			<div class="clear hideSkiplink">
+				<asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" 
+					EnableViewState="False" IncludeStyleBlock="False" Orientation="Horizontal" 
+					StaticSubMenuIndent="16px">
+					<Items>
+						<asp:MenuItem NavigateUrl="~/Default.aspx" Text="Home" 
+							ToolTip="MR MISGA Administration Home page"/>
+						<asp:MenuItem Text="Signup List" 
+							Value="Signup List" ToolTip="List the players signed up for an Event">
+							<asp:MenuItem NavigateUrl="~/Signups/Default.aspx" Text="Players List" 
+								Value="Players List"></asp:MenuItem>
+							<asp:MenuItem NavigateUrl="~/Signups/EditSignupDB.aspx" Text="Edit Sign Up DB" 
+                                Value="Edit Sign Up DB"></asp:MenuItem>
+						    <asp:MenuItem NavigateUrl="~/Signups/purge_prior_year.aspx" 
+                                Text="Purge Prior Year Entries" Value="Purge Prior Year Entries">
+                            </asp:MenuItem>
+						</asp:MenuItem>
+						<asp:MenuItem Text="Events" 
+							Value="Events" 
+							ToolTip="Manage the data in the  Events Database">
+                            <asp:MenuItem NavigateUrl="~/Events/editevents.aspx" Text="Modify Events" 
+                                ToolTip="Modify or Delete the Events iin the Events Database" 
+                                Value="Modify Events">
+                            </asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/Events/loadevents.aspx" Text="Load Events" 
+                                ToolTip="Load Events from schedule.txt file" Value="Load Events">
+                            </asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/Events/PurgeEvents.aspx" Text="Purge Events" 
+                                ToolTip="Purge aome or all the Events in the Events Database" 
+                                Value="Purge Events"></asp:MenuItem>
+                        </asp:MenuItem>
+						<asp:MenuItem Text="Members" 
+							Value="Members" ToolTip="Work with the Members Database">
+                            <asp:MenuItem NavigateUrl="~/Members/editmember.aspx" Text="Edit Members" 
+                                ToolTip="Edit the Members Database" Value="Edit Members"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/Members/updatehandicaps.aspx" 
+                                Text="Update Handicaps" 
+                                ToolTip="Update the Handicaps in the Memebrs Database using .txt file" 
+                                Value="Update Handicaps"></asp:MenuItem>
+                        </asp:MenuItem>
+						<asp:MenuItem Text="Parameters" 
+							Value="Parameters">
+							<asp:MenuItem NavigateUrl="~/Parameters/EditParam.aspx" Text="Edit Parameters" 
+								Value="Edit Parameters">
+							</asp:MenuItem>
+							<asp:MenuItem NavigateUrl="~/Parameters/AddParam.aspx" Text="Add Parameters" 
+								Value="Add Parameters"></asp:MenuItem>
+						    <asp:MenuItem NavigateUrl="~/LastDate/LastDate.aspx" Text="Set First &amp; Last Date" 
+                                ToolTip="Set the First and Last Date parameter to enable signups" 
+                                Value="Set First &amp; Last Date">
+                            </asp:MenuItem>
+						</asp:MenuItem>
+						<asp:MenuItem NavigateUrl="~/About.aspx" Text="About"/>
+					</Items>
+				</asp:Menu>
+			</div>
+		</div>
+		<div class="main">
+			<asp:ContentPlaceHolder ID="MainContent" runat="server">
+				<p>
+					&nbsp;</p>
+			</asp:ContentPlaceHolder>
+		</div>
+		<div class="clear">
+		</div>
+	</div>
+	<div class="footer">
+		<div id="copyright">
+	<p>
+<!--	<script type="text/javascript"  language="javascript"> -->
+	    <script type="text/javascript">
+            document.write("Last modified " + document.lastModified);
+		</script>
+					<br />
+		&copy Copyright 2011, 2012, 2013 by Thomas M. Rowlett, All Rights Reserved</p>
+		</div>
+	
+	</div>
+	</form>
+</body>
+</html>

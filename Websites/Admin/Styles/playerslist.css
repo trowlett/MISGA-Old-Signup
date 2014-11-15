@@ -1,0 +1,80 @@
+﻿body {
+}
+
+.center 
+{
+    text-align: center;
+}
+.players-list div
+{
+    width: 90%;
+    padding-left: 10%;
+}
+.players_list table 
+{
+	border-collapse: collapse;
+	border: 2px solid silver;
+	color: black;
+	margin-left: 20px;
+}
+.players_list td, th
+{
+	border: 1px dashed silver;
+}
+.select 
+{
+    width: 30px;
+    text-align: center;
+
+}
+.seqno 
+{
+	width: 30px;
+	text-align: center;
+}
+.eventid 
+{
+	padding: 2px 5px 2px 5px;
+	text-align: center;
+}
+.timestamp 
+{
+    width: 175px;
+	text-align: left;
+}
+.playerid 
+{
+    width: 50px;
+    text-align: center;
+}
+.name 
+{
+	width: 200px;
+	Text-Align: left;
+	padding-left: 3px;
+}
+.gender
+{
+	width: 60px;
+	text-align: center;
+}
+.hcp
+{
+	width: 35px;
+	text-align: center;
+}
+.action
+{
+	width:50PX;
+	text-align: center;
+}
+.carpool
+{
+	width: 50PX;
+	text-align: center;
+}
+.marked
+{
+	width: 40PX;
+	text-align: center;
+}

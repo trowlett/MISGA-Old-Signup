@@ -1,0 +1,125 @@
+﻿body {
+}
+.memberslist
+{
+    padding: 10px 0px 10px 0px;
+}
+.memberslist table
+{
+	border-collapse: collapse;
+	border: 1px solid red;
+	color: Black;
+	margin-left: auto;
+	margin-right: auto;
+}
+.memberslist tr, th
+{
+	border: 1px solid black;
+}
+.memberslist td, th
+{
+    padding: 2px 4px 2px 4px;
+}
+.gender {
+	width: 50px;
+	text-align: center;
+}
+.hcp 
+{
+	width: 50px;
+	text-align: right;
+}
+.hcpdate 
+{
+    width: 70px;
+    text-align: right;
+	}
+.active 
+{
+    width: 60px;
+    text-align: center;
+}
+.mdel 
+{
+    width: 20px;
+    text-align: center;
+	}
+.mname 
+{
+	width: 150px;
+	text-align: left;
+}
+.lname 
+{
+    width: 80px;
+    text-align: left;
+	}
+.memberID 
+{
+	width: 60px;
+	text-align: center;
+}
+.mtitle
+{
+	width: 50px;
+	text-align: center;
+}
+.pactive
+{
+	width: 50px;
+	text-align: right;
+}
+.pid 
+{
+	width: 20px;
+	text-align: center;
+}
+.btn_h_update 
+{
+	margin: 1em 0em 1em 30em;
+}
+.current
+{
+    background-color: #CCCCCC;
+}
+.update
+{
+    background-color: #FFCCFF;
+
+}
+
+#members_handicaps table
+{
+	border-collapse: collapse;
+	border: 1px solid black;
+	margin-left: 8em;
+	margin-bottom: 1em;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1.2em;
+}
+#members_handicaps td, th
+{
+	border: 1px solid black;
+	padding: 5px;
+}
+.hid 
+{
+	width: 100px;
+	text-align: center;
+}
+.hname 
+{
+	width: 150px;
+	text-align: left;
+}
+.hindex 
+{
+	width: 60px;
+	text-align: right;
+	
+}
+.hdate 
+{
+	width: 100px;
+	text-align: center;
+}
