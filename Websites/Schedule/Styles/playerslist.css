@@ -1,0 +1,76 @@
+﻿body {
+}
+.players_list table 
+{
+	border-collapse: collapse;
+	border: none;
+	color: black;
+	background-color: White;
+}
+.players_list td, th
+{
+	border: none;
+	padding: 3px;
+}
+.players_list th
+{
+	background-color: #5D7B9D;
+	font-weight: bold; 
+	color:White;
+}
+.seqno 
+{
+	width: 25px;
+	text-align: right;
+}
+.eventid 
+{
+	padding: 2px 5px 2px 5px;
+	text-align: center;
+}
+.timestamp 
+{
+	width: 110px;
+	text-align: center;
+}
+.timestampitem
+{
+	width: 110px;
+	text-align: right;
+}
+.name 
+{
+	width: 150px;
+	Text-Align: left;
+	padding-left: 3px;
+}
+.sex
+{
+	width: 60px;
+	text-align: center;
+}
+.hcp
+{
+	width: 35px;
+	text-align: center;
+}
+.action
+{
+	width:50PX;
+	text-align: center;
+}
+.carpool
+{
+	width: 50PX;
+	text-align: center;
+}
+.marked
+{
+	width: 40PX;
+	text-align: center;
+}
+.guest 
+{
+	width: 150px;
+	text-align: left;
+}

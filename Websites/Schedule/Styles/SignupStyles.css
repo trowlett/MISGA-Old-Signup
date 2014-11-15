@@ -1,0 +1,303 @@
+﻿h4 
+{
+	margin-top: 2px;
+	padding-top: 0px;
+	padding-bottom: 2px;
+	margin-bottom: 2px;
+}
+.signupform
+{
+	width: 35%;
+	height: 230px;
+	padding: 5px 10px 5px 10px;
+	border: 2px silver solid;
+	vertical-align: top;
+
+}
+#whoisgoing
+{
+	width: 50%;
+	height: 230px;
+	padding: 10px 15px 10px 15px;
+	border: 2px silver solid;
+	vertical-align: top;
+}
+#whoisgoing h2 
+{
+	text-align: center;
+}
+.limit
+{
+		text-align: center;
+		font-size: small;
+		margin: 1px 0px 1px 0px;
+		padding: 0px 0px 5px 0px;
+		color: #b22222;
+		font-weight: bold;
+}
+.signuphdr 
+{
+	text-align: center;
+	font-weight: bold;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+#mixerinfo
+{
+	border: 4px double blue;
+	border-style: double;
+	padding: 10px 0px 10px 0px;
+	margin: 5px 5px 3px 5px;
+	width: 898px;
+/*	background-color: #F0F3FF; */
+}
+#mixerinfo h2, h3
+{
+	padding: 3px 0px 3px 0px;
+	margin: 0px 0px 0px 0px;
+	text-align: center;
+	font-weight: bold;
+}
+#mixerinfo h4 
+{
+	font-size: large;
+	font-weight: bold;
+	padding: 4px 0px 4px 0px;
+	text-align: center;
+	margin: 2px;
+}
+#mixerinfo p
+{
+	padding: 2px 5px 2px 5px;
+	margin: 2px 5px 2px 5px;
+
+}
+#details table
+{
+	margin: 5px 24px 5px 24px;
+	border: 1px solid black;
+	border-collapse: collapse;
+	table-layout: auto;
+	width: 840px;
+
+}
+#details td
+{
+	text-align: left;
+	width: 50%;
+	border: 1px solid gray;
+	padding: 0px;
+}
+#details li
+{
+	color: black;
+}
+.special 
+{
+	text-align: center;
+	font-weight: bold;
+	color: black;
+}
+#rule 
+{
+	text-align: left;
+	color: #603;
+	font-size: medium;
+	border: 2px solid red;
+
+	background-color: #ffc;
+	margin: 2px 32px 2px 23px;
+}
+#rule p
+{
+	margin: 15px;
+}
+#tee
+{
+	text-align: left;
+	color: #603;
+	font-size: medium;
+	border: 2px solid red;
+	
+	background-color: #ffc;
+	margin: 10px 32px 10px 23px;
+    padding-bottom: 10px;
+}
+    #tee p
+    {
+        margin: 1px 15px 1px 15px;
+        padding: 0px;
+    }
+    #tee table
+    {
+	margin: 5px 5px 5px 25px;
+	border: 1px solid black;
+	border-collapse: collapse;
+	table-layout: auto;
+	width: initial;
+    }
+    #tee th
+    {
+    text-align: left;
+	border: 1px solid gray;
+	padding: 0px;
+    width: initial;
+    padding: 2px 2px 2px 2px;
+    }
+    #tee td
+    {
+    text-align: left;
+	border: 1px solid gray;
+	padding: 0px;
+    width: initial;
+    padding: 2px 2px 2px 2px;
+   }
+    #tee ul
+    {
+        margin: 1px 15px 1px 15px;
+        padding: 0px 0px 0px 15px;
+    }
+    #tee li
+    {
+        margin: 1px 15px 1px 15px;
+        padding: 0px 0px 0px 15px;
+    }
+    #tee h4
+    {
+        margin-bottom: 1px;
+        padding-bottom: 1px;
+    }
+
+#signup 
+{
+	font-size: medium;
+}
+.infohdr 
+{
+	text-align: center;
+	font-weight: bold;
+}
+.infodate
+{
+	font-weight: bold;
+	text-align: center;
+}
+.PopupBody
+{
+	font-size: medium;
+	padding: 5px 20px 20px 20px;
+}
+.PopupHeader 
+{
+	padding-top: 5px;
+	padding-left: 20px;
+}
+.PopupControls 
+{
+	margin-bottom: 20px;
+	padding-left: 20px;
+}
+.closed 
+{
+	font-size: large;
+	color: blue;
+	line-height: 1.6em;
+}
+.guest_panel 
+{
+	margin-left: 10px;
+}
+
+#flyer {
+	margin: 5px 10px 5px 10px; 
+	padding: 5px 5px 5px 5px;
+}
+#flyer p {
+	margin-left: 5em; 
+}
+#flyer h3 {
+	text-align: center;
+	}
+#flyer table 
+{
+	margin-left: 200px;
+	width: 500px;
+	border: 0px none black;
+}	
+#flyer td, th 
+{
+	border: 1px solid silver;
+}
+#flyer tr 
+{
+
+}
+.col1 
+{
+	width: 10px;
+}
+.col2 
+{
+	width: 400px;
+}
+#contacts 
+{
+	border-top: 2px solid blue;
+	margin-top: 10px;
+	padding-top: 10px;
+}
+#contacts table
+{
+	width: 100%;
+	border-collapse: collapse;
+	border: none;
+	margin: 5px 5px 5px 5px;
+}
+#contacts tr 
+{
+	border: none;
+}
+#contacts td 
+{
+	width: 33%;
+	border: none;
+}
+#contacts th 
+{
+	width: 33%;
+	border: none;
+	text-align: left;
+}
+.nomrmisga
+{
+    color: #b22222;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size: small;
+    font-weight: bold;
+}
+.notice {
+	border-style: ridge;
+	border-color: #b22222;
+	border-color: #fcf;
+	border-color: yellow;
+	border-width: 10px;
+	padding: 0px 20px 5px 20px;
+	margin: 20px;
+	background-color: #CCCCFF;
+	background-color: White;
+}	
+.notice p {
+	font-weight: bold;
+	color: Blue;
+	font-size: large;
+}
+.slope 
+{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.mr_red
+{
+    color: #b22222;
+    font-weight: bold;
+}

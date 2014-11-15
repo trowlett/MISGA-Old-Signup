@@ -1,0 +1,96 @@
+			<!-- from file: 23214071009218.txt -->
+
+<h2>Event:&nbsp;&nbsp;Mixer at Piney Branch CC</h2>
+
+<h3>Date:&nbsp;&nbsp;Thursday, July 10, 2014</h3>
+
+<div id="details">
+
+<table><tr><td><h4>Player Limit:&nbsp;&nbsp;25*</h4>
+
+</td><td><h4>Signup Deadline:<br />&nbsp;&nbsp;12:00 PM - Saturday, July 05, 2014</h4>
+
+</td></tr><tr><td><ul><li>Cost is:&nbsp;&nbsp;<b>$49 <em>(Cash Only)</em></b></li><li>Tee Time:&nbsp;&nbsp;<b>9:00 AM</b>, with refreshments Coffee and doughnuts should be available by 8:15 AM.  Lunch will be available starting at 1:15 PM</li></ul></td><td><ul><li>Slope for Piney Branch CC is ???</li><li>Directions are on the <a href="http://misga.org/club_pages/pineybranch.htm">MISGA Web Site</a></li><li>Golf Shop Phone Number:&nbsp;&nbsp;<b>"(410) 239-7115, ext 2"</b></li></ul></td></tr></table>
+
+<p class="center">Men receive 90% of their handicap based on their index.<br />
+ 
+Women receive 95% of their handicap based on their index.
+</p>
+
+<p class="special">* Due to cancelations and/or extra room in the field, additional players may be allowed</p>
+
+<p class="special">The course is soft spikes only.  The Club does not permit the wearing of Tee shirts or jean type slacks or cargo shorts.  Hats and spikes are not permitted in the dining room at lunch.</p>
+
+<p class="special">
+****Golfers who signup and do not notify of cancelation by 8:30 the day of the mixer will be charged the $24.00 food portion of the event.
+</p>
+
+</div>
+
+<div id="tee">
+<h4>Special Choices</h4>
+<p>Piney Branch plays the Gold tees for men for MISGA Mixers. Women play from the Forward (Green) Tees. <br /> 
+The normal or default MISGA tees are:
+<ul>
+<li>MEN: GOLD TEES</li>
+<li>WOMEN: GREEN TEES</li>
+</ul></p><br />
+<p>Men, if you would like to play from:
+<ul>
+<li>the WHITE TEES and receive an additional two (2) strokes, select the "W" button in the Special Choices section below.</li>
+<li>the FORWARD TEES and give up two (2) strokes, select the "F" button in the Special Choices section below.</li>
+</ul>
+</p><br />
+<p class="mr_red">
+If you do not make a choice, you will be playing from the normal or default MISGA tees.</p>
+<br />  
+<p>A summary of the Piney Branch CC tee specifics is shown below:
+</p>
+<table style="margin-left: 40px;"><tr>
+<th> Piney Branch </th>
+<th></th>
+<th> Yards </th>
+<th> Rating </th>
+<th> Slope </th>
+<th> Par </th>
+</tr>
+<tr>
+<td> Mens's White Tee </td>
+<td>W</td>
+<td> 6100 </td>
+<td> 69.9 </td>
+<td> 123 </td>
+<td> 71 </td>
+</tr>
+<tr>
+<td> Default Men's Gold </td>
+<td></td>
+<td> 5769 </td>
+<td> 67.2 </td>
+<td> 119 </td>
+<td> 71 </td>
+</tr>
+<tr>
+<td> Men's Forward (Green) Tees </td>
+<td>F</td>
+<td> 5318 </td>
+<td> 65.4 </td>
+<td> 113 </td>
+<td> 71 </td>
+</tr>
+<tr>
+<td> Women's Tees </td>
+<td></td>
+<td> 5318 </td>
+<td> 70.6 </td>
+<td> 124 </td>
+<td> 71 </td>
+</tr>
+</table>
+<p>
+<b><em>Piney Branch will not redo scorecards on the day of Mixer.</em></b></p>
+
+</div>
+
+<!-- END from file: 23214071009218.txt -->
+

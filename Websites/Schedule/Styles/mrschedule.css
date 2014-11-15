@@ -1,0 +1,122 @@
+﻿body {
+}
+.mr_schedule 
+{
+    clear: both;
+	}
+.mr_schedule h3, h4, p {
+	margin: 5px 5px 2px 5px;
+	padding: 0px 0px 0px 0px;
+	}
+.mr_schedule table 
+{
+		border: 1px black solid;
+		border-collapse: collapse;
+		margin: 5px 5px 5px 5px;
+		margin-left: auto;
+        margin-right: auto;
+		}
+.mr_schedule th {
+		border: 1px black solid;
+		padding: 1px 3px 1px 3px;
+		font-size: .8em;
+		}
+.mr_schedule td {
+		border: 1px black solid;
+		padding: 3px 3px 3px 3px;
+		font-size: .9em;
+		}
+.mr_schedule a:hover {
+	background-color: #000099;
+	color: #FFFF00;
+	}
+
+	
+.home {
+		background-color: #FFFFCC; 
+/*		background-color: #CCFFFF; */
+		color: black;
+		}
+.normal {
+		background-color: white;
+		color: navy;
+		}
+.away {
+		background-color: #CCFFFF;
+/*		background-color: #FCE1FD;
+		background-color: #FFEDDF; */
+		color: black;
+		}
+.misga {
+		background-color: white;
+		color: navy;
+		}
+.selectcol 
+{
+	width: 4em;
+	text-align: center;
+}
+.datecol {
+		width: 80px;
+		text-align: left;
+		}
+.hacol	{
+		width: 3em;
+		text-align: center;
+		}		
+.titlecol	{
+		width: 21.5em;
+		text-align: left;
+		}
+.clubcol
+{
+    width: 21.5em;
+    text-align: left;
+}
+.costcol {
+		width: 2.5em;
+		text-align: center;
+		}
+.timecol {
+		width: 3.5em;
+		text-align: center;
+		}
+.para_indent {
+		margin-left: 1em;
+		}
+.playerlimit 
+{
+	width: 3.4em;
+	text-align: center;
+}
+.deadlinecol 
+{
+    width: 60px;
+    text-align: center;
+}
+.postdatecol 
+{
+    width: 50px;
+    text-align: center;
+}
+.futurecol 
+{
+	text-align: center;
+	width: 50px;
+}
+#scheduledate
+{
+    float: right;
+    text-align: right;
+}
+#version {
+    text-align: left;
+    color: blue;
+}
+#mylist {
+    float: right;
+    text-align: right;
+}
+
+
+		

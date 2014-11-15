@@ -1,0 +1,87 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MRMisga.master.cs" Inherits="SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>MRMISGA</title>
+<link href="http://mrmisga.org/styles/style2.css" rel="stylesheet" type="text/css" media="screen"/>
+<link href="http://mrmisga.org/styles/print.css" rel="stylesheet" type="text/css" media="print" />
+<link rel="shortcut icon" href="http://mrmisga.org/favicon.ico" />
+<asp:ContentPlaceHolder id="HeadContent" runat="server">
+</asp:ContentPlaceHolder>
+</head>
+
+<body>
+
+<form id="form1" runat="server">
+
+<!-- Begin Container -->
+<div id="container">
+	<!-- Begin Masthead -->
+	<div id="masthead">
+		<asp:Image ID="Hdr_Image" runat="server" style="width: 920px; padding-left: 20px; padding-right: 20px" 
+			ImageUrl="http://mrmisga.org/images/Musket-Ridge-MISGA-hdr-v1.jpg" ImageAlign="AbsMiddle" />
+		
+	
+	</div>
+	<div id="print-hdr">
+	<h1>Musket Ridge MISGA - <span style="font-size: .75em">Myersville, Maryland</span></h1></div>
+	<!-- End Masthead -->
+	<div id="tools">
+	<!-- AddThis Button BEGIN -->
+	<a class="addthis_button" href="http://www.addthis.com/bookmark.php?v=250&amp;username=xa-4b5c52fc69b6464f">
+	<img src="http://mrmisga.org/images/sm-share-en.gif" width="83" height="16" alt="Bookmark and Share" style="border:0"/>	</a>
+
+	<!-- AddThis Button END -->
+	</div>
+	<!-- Begin Navigation -->
+	<div id="navigation">
+		<ul>
+			<li><a href="<%=OrgURL%>/default.htm">Home</a></li>
+			<li><a href="..<%: Request.ApplicationPath %>/Default.aspx">Schedule</a></li>
+			<li><a href="<%=OrgURL%>/results/results_main.html">Results</a></li>
+			<li><a href="<%=OrgURL%>/documents/main.html" title="Access a library of Musket Ridge MISGA Documents">Documents</a></li>
+<!--			<li><a href="<%=OrgURL%>/news/default.html">News</a></li> -->
+			<li><a href="<%=OrgURL%>/handicap/handicap.html">Handicap</a></li>
+<!--			<li><a href="photo_gallery/default.html">Photo Gallery</a></li> -->
+			<li><a href="<%=OrgURL%>/information_links/default.html">Links</a></li>
+<!--			<li><a href="faq/default.html">FAQ</a></li> -->
+			<li><a href="<%=OrgURL%>/contact/default.html">Contact</a></li>
+			<li><a href="http://www.musketridge.com" title="Musket Ridge Website" target="_blank">Musket Ridge</a></li>
+		</ul>
+	</div>
+	<!-- End Navigation -->
+	<div id="page_content">
+	<asp:ContentPlaceHolder id="MainContent" runat="server">
+	</asp:ContentPlaceHolder>
+	</div>  <!-- page_content -->
+		<div id="footer">
+		<p><a href="<%=OrgURL%>/default.htm">Home</a> | 
+			<a href="..<%: Request.ApplicationPath %>/Default.aspx">Schedule</a> | 
+			<a href="<%=OrgURL%>/results/results_main.html">Results</a> | 
+			<a href="<%=OrgURL%>/documents/main.html" title="Access a library of Musket Ridge MISGA Documents">Documents</a> | 
+<!--			<a href="<%=OrgURL %>/news/default.html">News</a> |  -->
+			<a href="<%=OrgURL %>/handicap/handicap.html">Handicap</a> | 
+<!--		<a href="photo_gallery/default.html">Photo Gallery</a> | -->
+			<a href="<%=OrgURL %>/information_links/default.html">Links</a> |
+<!--		<a href="faq/default.html">FAQ</a> | -->
+			<a href="<%=OrgURL %>/contact/default.html">Contact</a> | 
+			<a href="http://www.musketridge.com" target="_blank" title="Musket Ridge Website">Musket Ridge</a> | </p>
+	</div>
+	<!-- End Footer -->
+	</div>  <!-- Container -->
+	<div id="copyright">
+	<p>Last modified 
+        <script type="text/javascript">
+//            document.write(document.lastModified);
+        </script>
+
+        November 7, 2014
+
+					<br />
+		&copy Copyright 2011, 2012, 2013 & 2014 by Thomas M. Rowlett, All Rights Reserved</p>
+		</div>
+	</form>
+</body>
+</html>
