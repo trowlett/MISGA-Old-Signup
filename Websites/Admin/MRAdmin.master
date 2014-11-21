@@ -101,9 +101,9 @@
 	<p>
 <!--	<script type="text/javascript"  language="javascript"> -->
 	    <script type="text/javascript">
-            document.write("Last modified " + document.lastModified);
+//            document.write("Last modified " + document.lastModified);
 		</script>
-		Last modified Jan. 10, 2014
+		Last modified Jan. 25, 2014
 					<br />
 		&copy Copyright 2011, 2012, 2013, 2014 by Thomas M. Rowlett, All Rights Reserved</p>
 		</div>
